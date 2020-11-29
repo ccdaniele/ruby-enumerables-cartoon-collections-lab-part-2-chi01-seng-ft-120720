@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
   
    while element < valid_calls.length do 
      if planeteer_calls[counter] == valid_calls [element]
-       puts planeteer_calls [counter]
+       return planeteer_calls [counter]
      end
      element +=1
    end
